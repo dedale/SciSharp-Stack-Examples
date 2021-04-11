@@ -11,6 +11,7 @@
     <Compile Include="Operators.fs" />
     <Compile Include="HelloWorld.fs" />
     <Compile Include="BasicOperations.fs" />
+    <Compile Include="BasicModels\LinearRegressionKeras.fs" />
     <Compile Include="BasicModels\LinearRegression.fs" />
     <Compile Include="BasicModels\LinearRegressionEager.fs" />
     <Compile Include="BasicModels\LogisticRegression.fs" />

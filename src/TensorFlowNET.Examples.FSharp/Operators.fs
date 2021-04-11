@@ -18,6 +18,7 @@ namespace TensorFlowNET.Examples.FSharp
 
 open NumSharp
 open SharpCV
+open System
 open Tensorflow
 
 [<AutoOpen>]
@@ -27,6 +28,9 @@ module TensorflowOperators =
 
     type NDArray with
         member x.asTensor : Tensor = Tensor.op_Implicit x
+
+    type Int32 with
+        member x.asTensorShape : TensorShape = TensorShape.op_Implicit x
 
     type Shape with
         member x.asTensorShape : TensorShape = TensorShape.op_Implicit x

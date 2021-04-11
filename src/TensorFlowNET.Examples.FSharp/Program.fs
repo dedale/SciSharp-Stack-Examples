@@ -119,6 +119,7 @@ let main argv =
               BasicOperations.Example
               LinearRegression.Example
               LinearRegressionEager.Example
+              LinearRegressionKeras.Example
               LogisticRegression.Example
               LogisticRegressionEager.Example
               NearestNeighbor.Example
